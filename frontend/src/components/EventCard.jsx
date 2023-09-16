@@ -4,7 +4,7 @@ import { PlusCircleIcon } from "@heroicons/react/24/outline";
 
 export const EventCard = ({ eventData, isAdd }) => {
   return (
-    <Link to="/">
+    <Link>
     <Card className="max-w-sm h-full" href='#'>
      {!isAdd ?
      <>
